@@ -17,6 +17,6 @@ else:
 
     
 f = open("demofile.txt","+r")
-f.read()
+print(f.read())
 
 f.close()
